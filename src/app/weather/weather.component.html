@@ -1,0 +1,22 @@
+<p>weather API!!</p>
+    <span class="sr-only" id="loading">Loading...</span>
+<table class="table" id="tab">
+  <thead>
+    <tr>
+      <th scope="col">title</th>
+      <th scope="col">location_type</th>
+      <th scope="col">woeid</th>
+      <th scope="col">latt_long</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let e of lis">
+      <td>{{ e }}</td>
+
+      <!-- <td>{{ e.title }}</td>
+      <td>{{e.location_type}</td>
+      <td>{{ e.woeid }}</td>
+      <td>{{e.latt_long}</td> -->
+    </tr>
+  </tbody>
+</table>
